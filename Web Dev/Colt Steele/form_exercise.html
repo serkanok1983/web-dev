@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <label for="first">Name: </label>
+        <input name="first "id="first" type="text" placeholder="Serkan" required>
+        <label for="last">Surname: </label>
+        <input name="last" id="last" type="text" placeholder="Ok" required>
+
+    <div>
+        <label for="male">Male</label>
+        <input id="male" name="gender" type="radio" value="Male">
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio" value="Female">
+        <label for="other">Other</label>
+        <input id="other" name="gender" type="radio" value="Other">
+    </div>
+
+    <div>
+        <label>
+            E-mail:
+            <input name="email" type="email" placeholder="Your Email" required>
+        </label>
+        <label>
+            Password:
+            <input name="password" type="password" pattern=".{5,10}" required title="Şifre 5 ila 10 karakter içermelidir.">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Birthday: 
+            <select name="month" id="" required>
+                <option value="">Month</option>
+                <option value="">Ocak</option>
+                <option value="">Şubat</option>
+                <option value="">Mart</option>
+                <option value="">Nisan</option>
+                <option value="">Mayıs</option>
+                <option value="">Haziran</option>
+                <option value="">Temmuz</option>
+                <option value="">Ağustos</option>
+                <option value="">Eylül</option>
+                <option value="">Ekim</option>
+                <option value="">Kasım</option>
+                <option value="">Aralık</option>
+            </select>
+            <select name="day" id="" required>
+                <option value="">Day</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+            <select name="year" id="" required>
+                <option value="">Year</option>
+                <option value="">1970</option>
+                <option value="">1971</option>
+                <option value="">1972</option>
+                <option value="">1973</option>
+                <option value="">1974</option>
+                <option value="">1975</option>
+                <option value="">1976</option>
+                <option value="">1977</option>
+                <option value="">1978</option>
+                <option value="">1979</option>
+                <option value="">1980</option>
+                <option value="">1981</option>
+                <option value="">1982</option>
+                <option value="">1983</option>
+                <option value="">1984</option>
+                <option value="">1985</option>
+                <option value="">1986</option>
+                <option value="">1987</option>
+                <option value="">1988</option>
+                <option value="">1989</option>
+                <option value="">1990</option>
+            </select>
+        </label>
+    </div>
+
+    <div>
+        <label for="agreed">I agree to agree to the terms and conditions: </label>
+        <input type="checkbox" id="agreed" name="agreed" checked required>
+    </div>
+
+    <input type="submit">
+    </form>
+</body>
+</html>
